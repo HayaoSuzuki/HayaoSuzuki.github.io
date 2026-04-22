@@ -1,0 +1,1 @@
+# HayaoSuzuki.github.io
