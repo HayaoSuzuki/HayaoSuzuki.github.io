@@ -1,0 +1,6 @@
+title: エッセイ
+nav:
+  - 一覧: index.md
+  - ...
+order: desc
+order_by: filename

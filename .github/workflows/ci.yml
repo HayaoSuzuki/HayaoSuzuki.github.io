@@ -29,6 +29,12 @@ jobs:
       - name: Sync dependencies
         run: uv sync --frozen
 
+      - name: Lint with ruff
+        run: uv run ruff check .
+
+      - name: Check formatting with ruff
+        run: uv run ruff format --check .
+
       - name: Build site
         run: uv run mkdocs build --strict
 

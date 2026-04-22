@@ -1,0 +1,6 @@
+title: 技術記事
+nav:
+  - 一覧: index.md
+  - ...
+order: desc
+order_by: filename

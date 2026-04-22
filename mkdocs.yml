@@ -30,19 +30,18 @@ theme:
         icon: material/weather-night
         name: ライトモードに切り替え
 
-nav:
-  - ホーム: index.md
-  - 履歴書: cv.md
-  - 業績:
-      - 翻訳・監訳・監修・査読: works/translations.md
-      - 外部発表: works/presentations.md
-  - エッセイ:
-      - 一覧: essays/index.md
-  - 技術記事:
-      - 一覧: articles/index.md
+plugins:
+  - search
+  - awesome-pages
+
+hooks:
+  - hooks/autoindex.py
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - https://platform.twitter.com/widgets.js
 
 markdown_extensions:
   - admonition
