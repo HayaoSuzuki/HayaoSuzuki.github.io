@@ -1,6 +1,6 @@
 # バージョン管理がない世界
 
-*2025-06-13 公開*
+*2015-06-13 公開*
 
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja">バージョン管理は記憶力とファイル名、Diffは人力で色を変えるという地獄で働いているXaroさん</p>
