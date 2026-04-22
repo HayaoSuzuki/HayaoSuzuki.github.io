@@ -1,0 +1,11 @@
+[project]
+name = "hayaosuzuki-github-io"
+version = "0.1.0"
+description = "My GitHub Pages built with MkDocs Material"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mkdocs-material>=9.7.6",
+]
