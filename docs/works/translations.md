@@ -1,5 +1,7 @@
 # 翻訳・監訳・監修・査読
 
+関連する書誌情報は [Web NDL Authorities](https://ndlsearch.ndl.go.jp/search?cs=bib&f-ndla_na=031392941) でも確認できます。
+
 ## 書籍
 
 ### 翻訳
