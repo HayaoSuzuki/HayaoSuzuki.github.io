@@ -2,7 +2,7 @@
 
 ## コンテンツ
 
-- [履歴書](cv.md)
+- [履歴書（非公式版）](cv.md)
 - 業績
     - [翻訳・監訳・監修・査読](works/translations.md)
     - [外部発表](works/presentations.md)
@@ -12,4 +12,5 @@
 ## リンク
 
 - [GitHub](https://github.com/HayaoSuzuki)
-- [Blog](https://xaro.hatenablog.jp/)
+- [国立国会図書館](https://ndlsearch.ndl.go.jp/search?cs=bib&f-ndla_na=031392941)
+- [Web NDL Authorities](https://id.ndl.go.jp/auth/ndlna/031392941)
