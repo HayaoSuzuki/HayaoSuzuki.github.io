@@ -42,9 +42,7 @@ def _build_listing(posts_dir: Path) -> str:
     sections: list[str] = []
     for year, group in groupby(entries, key=lambda e: e[0]):
         sections.append(f"### {year}年")
-        sections.append(
-            "\n".join(f"- {date} [{title}]({rel})" for _, date, title, rel in group)
-        )
+        sections.append("\n".join(f"- {date} [{title}]({rel})" for _, date, title, rel in group))
     return "\n\n".join(sections)
 
 
