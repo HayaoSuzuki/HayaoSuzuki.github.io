@@ -7,6 +7,7 @@
     - [翻訳・監訳・監修・査読](works/translations.md)
     - [外部発表](works/presentations.md)
 - [エッセイ](essays/index.md)
+- [書評](books/index.md)
 - [技術記事](articles/index.md)
 
 ## リンク
