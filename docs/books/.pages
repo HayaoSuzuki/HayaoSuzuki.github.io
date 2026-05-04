@@ -1,0 +1,6 @@
+title: 書評
+nav:
+  - 一覧: index.md
+  - ...
+order: desc
+order_by: filename
