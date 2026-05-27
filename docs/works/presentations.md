@@ -81,7 +81,7 @@ cmathモジュールの可能性を模索した。
     - [Slide](https://speakerdeck.com/hayaosuzuki/how-to-use-in-memory-streams)
     - [YouTube](https://youtu.be/2ku5iNSUhKw)
 
-ioモジュールのインメモリーストリーム(StringIo, BytesIO)の実用例を発表した。 
+ioモジュールのインメモリーストリーム(StringIO, BytesIO)の実用例を発表した。 
 BytesIOの中でさらにZipfileを開くという込み入った実装がちょっと気に入っている。
 
 ## 2021年
