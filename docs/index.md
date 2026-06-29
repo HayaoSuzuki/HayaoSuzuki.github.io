@@ -9,7 +9,7 @@
 - [エッセイ](essays/index.md)
 - [書評](books/index.md)
 - [技術記事](articles/index.md)
-- [Etudes for Python](https://github.com/HayaoSuzuki/etudes-for-python)
+- [Etudes for Python](https://hayaosuzuki.github.io/etudes-for-python/)
 
 ## リンク
 
