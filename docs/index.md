@@ -10,6 +10,7 @@
 - [書評](books/index.md)
 - [技術記事](articles/index.md)
 - [Etudes for Python](https://hayaosuzuki.github.io/etudes-for-python/)
+- [Exercise for Python Distilled](https://hayaosuzuki.github.io/exercise-for-python-distilled/)
 
 ## リンク
 
