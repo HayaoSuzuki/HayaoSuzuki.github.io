@@ -135,12 +135,8 @@ class Card(models.Model):
 
     class Meta:
         constraints = [
-            models.CheckConstraint(
-                check=models.Q(number__in=Number.values), name="number_check"
-            ),
-            models.CheckConstraint(
-                check=models.Q(suit__in=Suit.values), name="suit_check"
-            ),
+            models.CheckConstraint(check=models.Q(number__in=Number.values), name="number_check"),
+            models.CheckConstraint(check=models.Q(suit__in=Suit.values), name="suit_check"),
         ]
 
     def __str__(self) -> str:
@@ -166,20 +162,24 @@ class Number(models.IntegerChoices):
 マイグレーションを見ると、`None`が候補に混ざっていることがわかる。
 
 ```python
-        migrations.AddConstraint(
-            model_name="card",
-            constraint=models.CheckConstraint(
-                check=models.Q(("number__in", [None, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])),
-                name="number_check",
-            ),
+(
+    migrations.AddConstraint(
+        model_name="card",
+        constraint=models.CheckConstraint(
+            check=models.Q(("number__in", [None, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])),
+            name="number_check",
         ),
-        migrations.AddConstraint(
-            model_name="card",
-            constraint=models.CheckConstraint(
-                check=models.Q(("suit__in", [None, "♢", "♠", "♡", "♣"])),
-                name="suit_check",
-            ),
+    ),
+)
+(
+    migrations.AddConstraint(
+        model_name="card",
+        constraint=models.CheckConstraint(
+            check=models.Q(("suit__in", [None, "♢", "♠", "♡", "♣"])),
+            name="suit_check",
         ),
+    ),
+)
 ```
 
 今回のケースだと、`number`と`suit`いずれのフィールドもNOT NULLであるため、`None`を渡しても期待通りエラーが発生するが、NULLを許容する場合は素通りしてしまう。
