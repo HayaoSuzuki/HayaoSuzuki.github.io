@@ -16,3 +16,7 @@ site/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated textbook from a pinned hoimin commit
+.book-source/
+docs/mutation-testing/

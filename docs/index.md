@@ -9,6 +9,7 @@
 - [エッセイ](essays/index.md)
 - [書評](books/index.md)
 - [技術記事](articles/index.md)
+- [ミューテーションテストによるテスト改善](mutation-testing/index.md)
 - [Etudes for Python](https://hayaosuzuki.github.io/etudes-for-python/)
 - [Exercise for Python Distilled](https://hayaosuzuki.github.io/exercise-for-python-distilled/)
 
