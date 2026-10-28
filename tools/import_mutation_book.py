@@ -7,7 +7,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-SOURCE_REVISION = "90b5f2963f4a0a24bb659e39eb293e0224333b19"
+SOURCE_REVISION = "bffcac4a1cb58c03a1a4f708429c52e3a9843f7a"
 SOURCE_REPOSITORY = "https://github.com/HayaoSuzuki/hoimin.git"
 
 
